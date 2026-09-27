@@ -106,9 +106,20 @@ a{color:#7C3AED}
 <hr/>
 <h2>Price data vendors to contact</h2>
 <p>OneBinder will <strong>not</strong> scrape eBay or competitor apps in a browser (captchas, blocks, a weak story for the product). Value comes from a <strong>licensed feed from a data company</strong>. These are starting points to apply or email for <strong>commercial / in-app</strong> rights — not a finished contract.</p>
-<p><strong>Outreach status (Sep 25, 2026):</strong> We contacted <strong>Card Hedge</strong> (commercial price API). Brief ask: multi-category collector app (working name TBD); need licensed sold-comps / estimates we can show to end users; rough early volume and private-test timeline; confirm category coverage, comps detail, refresh cadence, and written display rights. They confirmed receipt and said they would reply within 24 hours. No terms or pricing back yet.</p>
+<p><strong>Outreach status (updated Sep 26, 2026):</strong> We contacted <strong>Card Hedge</strong> (commercial price API) on Sep 25. They replied Sep 26 with commercial terms. Summary of their reply:</p>
+<ul>
+<li><strong>What they sell:</strong> real-time price updates; price history (all grades + raw); card data; predictive / ML pricing; structured downloads; custom APIs; image search / identification.</li>
+<li><strong>Price:</strong> commercial agreement required. Base pricing typically <strong>~$500 / month</strong> for one category (for example Pokémon) up to <strong>~$1,000 / month</strong> for all categories (USD).</li>
+<li><strong>Display rights:</strong> commercial rights to show estimates and comps to end users; <strong>no attribution required</strong>.</li>
+<li><strong>Coverage:</strong> major sports (MLB, NFL, NBA, NHL, soccer, UFC), Pokémon (including Japanese sets), Magic: The Gathering, Disney / entertainment, and other TCG categories.</li>
+<li><strong>Freshness:</strong> recent individual sales via a COMPS endpoint; aggregated price history with a <strong>daily refresh</strong>.</li>
+<li><strong>Limits:</strong> commercial agreements have <strong>no rate limits</strong> (per their email).</li>
+<li><strong>Clients they named:</strong> Arena Club, Mantel, Courtyard.io.</li>
+<li><strong>Next step:</strong> call to discuss use case, or they can send a <strong>test key + documentation</strong> if terms look acceptable. We are drafting a short “please send the test key” reply.</li>
+</ul>
+<p><em>These numbers and rights come from Card Hedge’s Sep 26 email reply — not a signed contract yet.</em></p>
 <table><thead><tr><th>Vendor</th><th>Best for</th><th>Link</th><th>Notes</th></tr></thead><tbody>
-<tr><td><strong>Card Hedge</strong></td><td>Sports + TCG + non-sport comps / FMV API (broad categories)</td><td>https://ai.cardhedger.com/api-services</td><td><strong>Contacted Sep 25, 2026</strong> — waiting on reply. Strongest public “sells an API for apps” fit so far; still need written rights to show numbers to our users.</td></tr>
+<tr><td><strong>Card Hedge</strong></td><td>Sports + TCG + non-sport comps / FMV API (broad categories)</td><td>https://ai.cardhedger.com/api-services</td><td><strong>Replied Sep 26, 2026.</strong> ~$500/mo one category → ~$1,000/mo all categories. Display rights to end users with no attribution; COMPS + daily history; no rate limits on commercial deals. Named clients: Arena Club, Mantel, Courtyard.io. Next: test key / docs (or a call).</td></tr>
 <tr><td><strong>PriceCharting</strong></td><td>Pokémon + other collectibles guide prices; paid API</td><td>https://www.pricecharting.com/api-documentation · https://www.pricecharting.com/pricecharting-pro?f=api</td><td>Default API is often <strong>internal</strong> use; putting prices in a consumer app needs their <strong>commercial license</strong> — ask explicitly.</td></tr>
 <tr><td><strong>SportsCardsPro</strong></td><td>Sports card guide prices (same family as PriceCharting)</td><td>https://www.sportscardspro.com/api-documentation</td><td>Same ask: commercial / in-app rights for OneBinder.</td></tr>
 <tr><td><strong>eBay Developer Program</strong></td><td>True <strong>sold comps</strong> (what actually sold)</td><td>https://developer.ebay.com/</td><td>Sold-history style access (e.g. Marketplace Insights) is <strong>limited / needs eBay approval</strong>, not open signup. Browse API alone is mostly active listings — weaker than sold comps.</td></tr>
@@ -145,11 +156,11 @@ a{color:#7C3AED}
 <hr/>
 <h2>What it costs to run (excluding the app build)</h2>
 <p>These figures are <strong>operating and launch costs only</strong> — Apple fees, hosting, data feeds, AI usage, entity/legal basics. They do <strong>not</strong> include paying someone to build the app.</p>
-<p><strong>In plain English:</strong> early private testing on phones can stay cheap. A lean first public year is usually in the low five figures for known costs. The big unknown is <strong>permission to show licensed sports market prices and checklists</strong> inside the app.</p>
+<p><strong>In plain English:</strong> early private testing on phones can stay cheap for Apple / hosting / AI. A lean first public year for those line items is still often low five figures. The main recurring add-on is a licensed price feed — Card Hedge quoted about <strong>$500–$1,000 / month</strong> (one category → all categories) with display rights for end users. That still needs a signed agreement before we treat it as locked.</p>
 <table><thead><tr><th>Stage</th><th>Ballpark (USD)</th><th>What’s in it</th></tr></thead><tbody>
 <tr><td><strong>Private iOS test build</strong> (friends / family via TestFlight; Pokémon-first price feed; metered AI pre-grades)</td><td>About <strong>$150–400</strong> to start, then <strong>~$30–80 / month</strong></td><td>Apple Developer ($99/yr), domain, light hosting, Pokémon catalog/price SaaS (e.g. Scrydex ~$29+/mo), cheap AI for Pro pre-grades</td></tr>
 <tr><td><strong>Lean public App Store year</strong> (~5,000 monthly users; known public costs)</td><td>About <strong>$4,000–$12,000 / year</strong></td><td>Apple + Florida LLC + domain + trademark filing + privacy work, hosting, Pokémon data SaaS, AI, email/crash tools. Closer to <strong>$6k–$16k</strong> with stronger privacy counsel and optional insurance</td></tr>
-<tr><td><strong>Sports commercial data licenses</strong></td><td><strong>Quote required</strong></td><td>PriceCharting / SportsCardsPro ~$49/mo “API” plans are for <strong>internal</strong> use; putting prices in a consumer app needs <strong>written commercial permission</strong>. Beckett-style checklists, eBay Insights, and TCGplayer API access are mostly ask-for-a-quote. This line can jump past everything else if priced like enterprise software</td></tr>
+<tr><td><strong>Licensed market-data feed (Card Hedge quote)</strong></td><td>About <strong>$500–$1,000 / month</strong></td><td>Per Card Hedge email Sep 26, 2026: ~$500/mo for one category (e.g. Pokémon) up to ~$1,000/mo for all categories. Includes display rights for estimates/comps to users (no attribution required). Still needs a signed commercial agreement and a test key before we wire it in. Other vendors (PriceCharting commercial, Beckett, eBay Insights, TCGplayer) remain quote / ask separately if we need a backup.</td></tr>
 </tbody></table>
 <p><strong>Other fixed / yearly items we should know:</strong></p>
 <ul>
@@ -160,7 +171,7 @@ a{color:#7C3AED}
 <li>Photo storage/bandwidth scales with users (roughly tens of dollars/month early; hundreds to low thousands at much larger scale). AI pre-grades stay cheap on a fast model (pennies per check). Free “add to binder” photo matching should use cheap embeddings — not the expensive vision model.</li>
 <li>Apple takes <strong>15%</strong> (Small Business Program) or <strong>30%</strong> of in-app subscription revenue — a cut of sales, not a fixed bill.</li>
 </ul>
-<p><strong>What this means for us:</strong> build cost is separate. Running costs are manageable if we start <strong>Pokémon-first</strong> with transparent SaaS data. <strong>Sports live market values on the App Store wait for signed commercial licenses</strong> — email vendors in the table above before promising that.</p>
+<p><strong>What this means for us:</strong> build cost is separate. Card Hedge’s reply gives a concrete ballpark for multi-category sold comps with display rights (~$500–$1,000/mo). Start lean (one category) if we want a lower monthly burn; jump to all-categories when the product needs sports + Pokémon + Magic + Disney together. Do not promise live in-app prices until a commercial agreement and test key are in hand.</p>
 <hr/>
 <h2>Source shortlist</h2>
 <ol>
@@ -175,7 +186,7 @@ a{color:#7C3AED}
 <p><em>Market-size figures from commercial research houses are estimates — keep that label on any leave-behind.</em></p>
 <h2>Known unknowns</h2>
 <p>Things we already know we still have to nail down. None of these kill the idea — they just need answers before we promise them in public.</p>
-<p><strong>Sports market data in the app.</strong> Pokémon/TCG has clearer published SaaS options. Showing licensed sports sold comps and checklists inside a consumer app usually needs written commercial permission, and those fees are often quote-only. Until that paper exists, we should treat full sports “live market value” as unconfirmed.</p>
+<p><strong>Market-data contract still unsigned.</strong> Card Hedge replied Sep 26 with ~$500/mo (one category) to ~$1,000/mo (all categories), display rights for estimates/comps with no attribution, broad sports + Pokémon + Magic + Disney coverage, COMPS + daily refresh, and no rate limits on commercial deals. Until we sign and get a test key, treat live in-app prices as <strong>quoted, not locked</strong>. Checklist / catalog licensing (who identifies the card) may still be a separate ask from price comps.</p>
 <p><strong>How complete the card catalog is on day one.</strong> Photo and search only feel smart if they hit the cards people actually own. We need a first coverage set (for example modern sports rookies plus major Pokémon sets) and a clean way to handle custom / pending IDs so the binder doesn’t fill with bad matches.</p>
 <p><strong>Kids, parents, and privacy.</strong> A free binder for young collectors means age gates, parental consent, and careful rules for photos and shared links. Templates are not enough for a kids-facing public launch — we need a real privacy pass first.</p>
 <p><strong>What the AI pre-grade is allowed to say.</strong> It is an estimate of condition, not a PSA grade and not a guarantee of sale price. Same for market values: always an estimate with an as-of date. Exact in-app wording and limits still need locking.</p>
@@ -185,5 +196,5 @@ a{color:#7C3AED}
 <p><strong>Android timing.</strong> iOS first is the plan. When Android joins is still open and should not distract the first installable build.</p>
 <p><strong>What “good enough to continue” means.</strong> We should set plain gates, for example: private test on real cards for a couple of weeks without rage-quitting; one licensed price feed live with honest labels; a small set of outside collectors who would strongly recommend it. Without gates, the idea stays a forever conversation.</p>
 <hr/>
-<p><em>OneBinder · Confidential team draft · Not investment advice · Figures as of research date Sep 25, 2026 · Cost ranges exclude app build</em></p>
+<p><em>OneBinder · Confidential team draft · Not investment advice · Figures as of research date Sep 26, 2026 · Card Hedge terms from email reply Sep 26, 2026 · Cost ranges exclude app build</em></p>
 </body></html>
