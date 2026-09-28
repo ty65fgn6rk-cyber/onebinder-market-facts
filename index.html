@@ -24,10 +24,26 @@ a{color:#7C3AED}
 .hero-title{margin:0;line-height:1.15}
 .hero-title .brand{display:block;font-size:32px;font-weight:700;letter-spacing:.02em;background:linear-gradient(135deg,#00B8E6,#7C3AED,#FF6BCB);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hero-title .sub{display:block;margin-top:8px;font-size:18px;font-weight:600;letter-spacing:.04em;color:#4A4468;-webkit-text-fill-color:#4A4468;background:none}
+
+.demo-cta-wrap{text-align:center;margin:18px 0 6px}
+.demo-cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 22px;border-radius:999px;font-size:16px;font-weight:700;letter-spacing:.01em;text-decoration:none;color:#fff !important;-webkit-text-fill-color:#fff;background:linear-gradient(135deg,#00B8E6,#7C3AED,#FF6BCB);box-shadow:0 8px 22px rgba(124,58,237,.28);border:1px solid rgba(255,255,255,.35);transition:transform .15s ease,box-shadow .15s ease}
+.demo-cta:hover{transform:translateY(-1px);box-shadow:0 12px 28px rgba(124,58,237,.36)}
+.demo-cta:active{transform:translateY(0)}
+.demo-cta svg{flex-shrink:0;display:block}
+.demo-cta-note{margin:10px 0 0;font-size:13px;color:#6B6588;text-align:center}
+@media (max-width:480px){.demo-cta{width:100%;max-width:360px;box-sizing:border-box;padding:14px 16px;font-size:15px}}
+@media print{.demo-cta{box-shadow:none;background:#7C3AED;color:#fff !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 </style></head><body>
 <div class="hero">
 <img class="hero-logo" src="onebinder-logo-ice-crystal.png" width="168" height="168" alt="One Binder — Cosmic Chrome ice crystal logo"/>
 <h1 class="hero-title"><span class="brand">One Binder</span><span class="sub">Market Facts One-Pager</span></h1>
+</div>
+<div class="demo-cta-wrap">
+<a class="demo-cta" href="https://dawn-cent-cvwt7.shipped.run/" target="_blank" rel="noopener">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5" stroke="#fff" stroke-width="1.8"/><circle cx="12" cy="18.2" r="1.1" fill="#fff"/><path d="M10 5.2h4" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg>
+<span>Click here to view the app prototype</span>
+</a>
+<p class="demo-cta-note">Sample data demo — not the real installable app.</p>
 </div>
 <p><strong>OneBinder team brief · September 2026 · Working product name: OneBinder</strong></p>
 <p><em>Tagline: All hobbies. One binder.</em></p>
