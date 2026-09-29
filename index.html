@@ -162,7 +162,7 @@ a{color:#7C3AED}
 <tr><td>AI pre-grade (“worth sending to PSA?”)</td><td>Small monthly allowance</td><td>Higher or unlimited</td></tr>
 <tr><td>Exports / power tools</td><td>Light or later</td><td>CSV, richer reports</td></tr>
 </tbody></table>
-<p><strong>Design rule:</strong> Free must feel cooler than Pro. Pro sells extra AI checks and deeper price tools — not a flashier binder. Retention comes from the free loop: pull → add → binder grows → show a friend — same rhythm as owning the physical cards.</p>
+<p><strong>Design rule (locked):</strong> Freemium must stay awesome — <strong>goal is users</strong>. Free = cool core (binder, photo ID, cost, basic value, share). Paid = horsepower only (AI pre-grade, deeper comps) — <strong>never</strong> a better binder. Free must feel cooler than Pro. Retention comes from the free loop: pull → add → binder grows → show a friend — same rhythm as owning the physical cards.</p>
 <hr/>
 <h2>Prototype status</h2>
 <ul>
@@ -196,7 +196,7 @@ a{color:#7C3AED}
 <hr/>
 <h2>Monthly burn at user milestones</h2>
 <p>Ballpark <strong>software / data</strong> burn as users grow — CardSight for photo ID, Card Hedge for comps, plus light hosting / AI. This is <strong>not</strong> app build, marketing, or salaries.</p>
-<p><strong>Free-core ID is a real cost we absorb.</strong> Photo-add + card ID sits in the free product. When a free user snaps a card, we pay for that CardSight call. That spend is <strong>cost of the free core / cost of acquisition</strong> — it scales with free adds, not with paid subscribers. More free users (the goal) means more ID cost we eat; Pro / Premium deeper tools need to recover that over time.</p>
+<p><strong>Free-core ID is a real cost we absorb — on purpose.</strong> Photo-add + card ID sits in the free product because freemium must stay awesome and <strong>users are the goal</strong>. When a free user snaps a card, we pay for that CardSight call. That spend is <strong>cost of the free core / cost of acquisition</strong> — it scales with free adds, not with paid subscribers. More free users means more ID cost we eat; paid horsepower (AI pre-grade, deeper comps) — never a better binder — should recover that over time.</p>
 <p><strong>Assumptions we are using:</strong></p>
 <ul>
 <li><strong>CardSight ID:</strong> Free 750 calls/mo (no card), Pro $14.95 / 5k, Premium $74.95 / 30k, Ultra $199.95 / 100k; overage roughly <strong>$0.002–$0.003 per call</strong>. About <strong>1–2 ID calls per card added</strong>. Rule of thumb: early on we sit on a flat tier; at serious volume CardSight is a <strong>variable cost per free card-add</strong> that grows with free volume.</li>
@@ -210,20 +210,21 @@ a{color:#7C3AED}
 <tr><td><strong>Scaling</strong> (~25,000 MAU)</td><td>≈ <strong>$1,200–$1,250 / mo</strong> + hosting / AI ~$50–$150</td><td>CardSight Ultra ($199.95) + Card Hedge all ($1,000). <em>Free-tier ID cost:</em> ~$200 of the month — still the smaller slice; comps remain the main fixed line.</td></tr>
 <tr><td><strong>Larger</strong> (~100,000 MAU)</td><td>≈ <strong>$1,500–$2,000+ / mo</strong></td><td>Ultra + overage (a few hundred) + Card Hedge $1,000 + hosting / AI ~$200–$500. <em>Free-tier ID cost:</em> a few hundred of the month (tier + overage at ~$0.002–$0.003/call) — ID finally becomes a meaningful variable line as free volume scales.</td></tr>
 </tbody></table>
-<p><strong>What this means for us:</strong> early on the comps feed (Card Hedge) is the main monthly cost. ID stays cheap until serious volume — but every free card-add is still a real call we pay for. The big step-change is one-hobby comps pricing → all categories (~$500 → ~$1,000). Freemium implication: growing free users grows ID burn we absorb; paid deeper tools should recover that.</p>
+<p><strong>What this means for us:</strong> early on the comps feed (Card Hedge) is the main monthly cost. ID stays cheap until serious volume — but every free card-add is still a real call we pay for. The big step-change is one-hobby comps pricing → all categories (~$500 → ~$1,000). Freemium implication: growing free users (the goal) grows ID burn we absorb so the cool core stays free; paid horsepower (AI / deeper comps) should recover that — never by making a better binder.</p>
 <p><em>Planning estimates only. Final Card Hedge numbers depend on a signed agreement.</em></p>
+<hr/>
 <h2>Free CardSight ID vs paid upgrade break-even</h2>
-<p><em>Planning estimates only</em> — rough math for freemium pricing, not a P&amp;L forecast.</p>
-<p><strong>Per free card-add:</strong> about <strong>1–2 CardSight calls</strong> at ~$0.002–$0.003/call → we absorb roughly <strong>~$0.002–$0.006 per free card</strong> we add.</p>
+<p><em>Planning estimates only</em> — rough math for freemium pricing, not a P&amp;L forecast. <strong>Goal is users.</strong> Freemium must stay awesome: free is the cool core; paid is horsepower only.</p>
+<p><strong>Per free card-add:</strong> about <strong>1–2 CardSight calls</strong> at ~$0.002–$0.003/call → we absorb roughly <strong>~$0.002–$0.006 per free card</strong> we add. That ID cost sits in free on purpose so photo-add stays part of the cool core.</p>
 <p><strong>Per-user examples (ID cost we eat):</strong></p>
 <ul>
 <li>Light user (~5 cards): ~<strong>$0.01–$0.03</strong></li>
 <li>Typical (~20 cards): ~<strong>$0.04–$0.12</strong></li>
 <li>Heavy (~100 cards): ~<strong>$0.20–$0.60</strong></li>
 </ul>
-<p><strong>Example — 1,000 free users / 20 cards each:</strong> ~20,000 free adds → about <strong>$40–$120 / month</strong> in CardSight ID. Real cost, but still small next to <strong>Card Hedge</strong> (~$500–$1,000 / mo fixed). <strong>Card Hedge is the bigger fixed cost</strong>; free ID is a cheap variable line.</p>
+<p><strong>Example — 1,000 free users / 20 cards each:</strong> ~20,000 free adds → about <strong>$40–$120 / month</strong> in CardSight ID. Real cost, but still small next to <strong>Card Hedge</strong> (~$500–$1,000 / mo fixed). <strong>Card Hedge is the bigger fixed cost</strong>; free ID is a cheap variable line — cheap enough that we can keep the free binder awesome without gating snaps.</p>
 <p><strong>Break-even rough % at $9.99 / mo after Apple:</strong> net to us ≈ <strong>$8.49</strong> (15% Small Business) or ≈ <strong>$6.99</strong> (30%). Covering just that $40–$120 ID line at 1k free users needs roughly <strong>~5–17 paid</strong> → about <strong>~0.5%–1.7%</strong> conversion. Covering Card Hedge too needs a higher convert rate — again, comps dominate the math, not ID.</p>
-<p><strong>What this means for us:</strong> keep photo ID free. Meter AI pre-grade and deeper comps behind paid. <strong>Test $9.99 / mo first</strong>; we can move the price once we see real convert and ID volume.</p>
+<p><strong>What this means for us:</strong> freemium lock-in — <strong>users first</strong>. Free stays the cool core (binder, photo ID, cost tracking, basic value, share). Paid is <strong>horsepower only</strong> (AI pre-grade, deeper comps) — <strong>never</strong> a better binder. Keep ID free; meter AI / deeper comps. <strong>Test $9.99 / mo first</strong>; we can move the price once we see real convert and ID volume.</p>
 <p><em>Planning estimates only.</em></p>
 <hr/>
 <h2>Source shortlist</h2>
