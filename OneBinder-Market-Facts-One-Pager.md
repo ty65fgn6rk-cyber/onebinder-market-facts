@@ -15,13 +15,13 @@ Hobby cards are not a tiny niche. Millions of people buy, sell, and grade sports
 
 **In plain English:**
 
-1. **The overall category is large and still growing.** Outside research firms put the global trading-card business around **$16 billion** recently, with forecasts pointing toward roughly **$23 billion** by 2030. *(These are commercial estimates, not audited company filings.)*
-2. **People already spend serious money on single cards online.** On eBay alone, sales of individual cards (“singles”) were about **$2.6 billion in 2025** — roughly **$1.8B** sports and **$0.8B** Pokémon and other non-sports hobby cards. That is just one marketplace.
+- **The overall category is large and still growing.** Outside research firms put the global trading-card business around **$16 billion** recently, with forecasts pointing toward roughly **$23 billion** by 2030. *(These are commercial estimates, not audited company filings.)*
+- **People already spend serious money on single cards online.** On eBay alone, sales of individual cards (“singles”) were about **$2.6 billion in 2025** — roughly **$1.8B** sports and **$0.8B** Pokémon and other non-sports hobby cards. That is just one marketplace.
 
-3. **Getting cards professionally graded is a huge, growing industry.** Graders examined about **20 million** cards in 2024 and about **27 million** in 2025. PSA (the best-known grader) handled most of that volume. When grading is this big — and often slow or expensive — collectors need help deciding what is worth submitting.
-4. **Pokémon cards alone are enormous.** The Pokémon Company reports **75 billion+** cards produced over the life of the brand, including about **10 billion** in one recent fiscal year. Sports cards and Pokémon cards are both mainstream hobbies.
+- **Getting cards professionally graded is a huge, growing industry.** Graders examined about **20 million** cards in 2024 and about **27 million** in 2025. PSA (the best-known grader) handled most of that volume. When grading is this big — and often slow or expensive — collectors need help deciding what is worth submitting.
+- **Pokémon cards alone are enormous.** The Pokémon Company reports **75 billion+** cards produced over the life of the brand, including about **10 billion** in one recent fiscal year. Sports cards and Pokémon cards are both mainstream hobbies.
 
-5. **Collectors already use phone apps for hobby cards.** CollX (a scan-and-collect app) has reported **3 million+** users and raised a **$10 million** round in 2025. So “use your phone for your cards” is proven. What is still missing is one app that also tracks **cost**, **value**, and **“should I grade this?”** across hobbies.
+- **Collectors already use phone apps for hobby cards.** CollX (a scan-and-collect app) has reported **3 million+** users and raised a **$10 million** round in 2025. So “use your phone for your cards” is proven. What is still missing is one app that also tracks **cost**, **value**, and **“should I grade this?”** across hobbies.
 
 | Quick fact | Number | Source |
 |------------|--------|--------|
@@ -40,11 +40,11 @@ Hobby cards are not a tiny niche. Millions of people buy, sell, and grade sports
 
 ## Why now (why build this in 2026)
 
-1. **Grading got harder on the wallet and the calendar.** About **27 million** cards were graded in 2025. PSA has dealt with a very large backlog and has tightened or paused cheaper submission tiers; fees have gone up. Before someone pays to ship a card in, they want a smarter first look at condition and value.
-2. **Many collectors hold both sports and Pokémon.** In 2025, grading of Pokémon and other non-sports hobby cards jumped sharply and outpaced sports. Apps that only cover one hobby force people to juggle tools. OneBinder is built for **all hobbies in one binder**.
+- **Grading got harder on the wallet and the calendar.** About **27 million** cards were graded in 2025. PSA has dealt with a very large backlog and has tightened or paused cheaper submission tiers; fees have gone up. Before someone pays to ship a card in, they want a smarter first look at condition and value.
+- **Many collectors hold both sports and Pokémon.** In 2025, grading of Pokémon and other non-sports hobby cards jumped sharply and outpaced sports. Apps that only cover one hobby force people to juggle tools. OneBinder is built for **all hobbies in one binder**.
 
-3. **Buying and selling already happens on phones.** That ~$2.6B in eBay singles is people tapping screens. If your collection lives on your phone, you also need **what you paid** and **what it’s worth now** — not just a pretty photo gallery.
-4. **Scan apps exist; the decision layer does not.** CollX and others proved scanning. The open gap is helping someone answer: *What do I own? What did I pay? What’s it worth? Is it worth grading?*
+- **Buying and selling already happens on phones.** That ~$2.6B in eBay singles is people tapping screens. If your collection lives on your phone, you also need **what you paid** and **what it’s worth now** — not just a pretty photo gallery.
+- **Scan apps exist; the decision layer does not.** CollX and others proved scanning. The open gap is helping someone answer: *What do I own? What did I pay? What’s it worth? Is it worth grading?*
 
 ---
 
@@ -280,13 +280,13 @@ Ballpark **software / data** burn as users grow — CardSight for photo ID, Card
 ---
 
 ## Source shortlist
-1. GemRate / Sports Illustrated — grading volumes 2024–2025  
-2. GemRate / Yahoo Sports — eBay singles ~$2.62B (2025)  
-3. BCC Research — collectible / trading-card market research  
-4. TechCrunch — CollX funding / user scale (Mar 2025)  
-5. Baseball America / hobby press — PSA backlog and cheaper-tier pauses  
-6. The Pokémon Company — 75B+ cards produced  
-7. Competitor sites / App Store listings: CollX, CollectorVault, Card Ladder, BinderIQ  
+- GemRate / Sports Illustrated — grading volumes 2024–2025
+- GemRate / Yahoo Sports — eBay singles ~$2.62B (2025)
+- BCC Research — collectible / trading-card market research
+- TechCrunch — CollX funding / user scale (Mar 2025)
+- Baseball America / hobby press — PSA backlog and cheaper-tier pauses
+- The Pokémon Company — 75B+ cards produced
+- Competitor sites / App Store listings: CollX, CollectorVault, Card Ladder, BinderIQ
 
 *Market-size figures from commercial research houses are estimates — keep that label on any leave-behind.*
 
