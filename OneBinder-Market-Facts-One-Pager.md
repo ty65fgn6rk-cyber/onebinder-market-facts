@@ -158,6 +158,7 @@ Investors care about more than $9.99/mo. The free binder is also a **data flywhe
 |--|--|
 | Confirmed card IDs + photos | Better ID accuracy → own ID moat / license path |
 | What users paid (cost entered in free) | Transaction price authority beyond listing scrapes → comps / data income |
+| Industry feed (down the road) | B2B subscription for shops / funds / graders: price + identity + how much supply sits in opted-in binders (availability in the hobby) — not only consumer Pro |
 
 **Why it matters:** Pro is horsepower revenue. Free is the user goal **and** the path to becoming an authority on **identity and price** — two income streams that scale with free volume, with consent. Lawyer drafts the ask/consent before we collect anything for this purpose.
 
@@ -175,6 +176,7 @@ Investors care about more than $9.99/mo. The free binder is also a **data flywhe
 - **Just Landed:** celebrate the scan→collection moment (no extra camera; no arrival push). Pairs with binder value moves.
 - **Finish the set:** tabled for later.
 - **Parked for later (not stage one):** friend-landed signals; “new this week” on rookies / chase / slabs tiles; optional pull-session streak.
+- **B2B later:** One Binder industry subscription — price, identity, and supply/availability from freemium opt-in data.
 - **Freemium → alternative income (locked for ask):** Free users who opt in create two assets investors care about — not only Pro subscriptions. (1) **Identity:** confirmed “this is the card” (photos + yes/no) → better ID over time → license or keep as edge vs third-party ID vendors. (2) **Price:** what people actually paid → real transaction comps, not only scraped listings → market-data authority / license path. Free still stays awesome; Pro stays horsepower. Paid cost stays distinct from displayed market value.
 - **Consent before any of it ships:** plain opt-in; kids = parent consent; lawyer drafts privacy/consent language. No silent training on kids’ photos.
 - **Demo:** https://highlighted-prescription-institutes-flat.trycloudflare.com/
