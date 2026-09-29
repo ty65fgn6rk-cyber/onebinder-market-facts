@@ -149,6 +149,20 @@ Young collectors will ask parents. Entry must be near-zero friction — fun and 
 
 ---
 
+## Why free still pays (investor)
+*Alternative income from the free side — not only Pro*
+
+Investors care about more than $9.99/mo. The free binder is also a **data flywheel**:
+
+| Asset from free (opt-in) | What it becomes |
+|--|--|
+| Confirmed card IDs + photos | Better ID accuracy → own ID moat / license path |
+| What users paid (cost entered in free) | Transaction price authority beyond listing scrapes → comps / data income |
+
+**Why it matters:** Pro is horsepower revenue. Free is the user goal **and** the path to becoming an authority on **identity and price** — two income streams that scale with free volume, with consent. Lawyer drafts the ask/consent before we collect anything for this purpose.
+
+---
+
 ## Today’s product locks
 *Sep 29, 2026 · short version for Shawn — no coding speak*
 
@@ -161,6 +175,8 @@ Young collectors will ask parents. Entry must be near-zero friction — fun and 
 - **Just Landed:** celebrate the scan→collection moment (no extra camera; no arrival push). Pairs with binder value moves.
 - **Finish the set:** tabled for later.
 - **Parked for later (not stage one):** friend-landed signals; “new this week” on rookies / chase / slabs tiles; optional pull-session streak.
+- **Freemium → alternative income (locked for ask):** Free users who opt in create two assets investors care about — not only Pro subscriptions. (1) **Identity:** confirmed “this is the card” (photos + yes/no) → better ID over time → license or keep as edge vs third-party ID vendors. (2) **Price:** what people actually paid → real transaction comps, not only scraped listings → market-data authority / license path. Free still stays awesome; Pro stays horsepower. Paid cost stays distinct from displayed market value.
+- **Consent before any of it ships:** plain opt-in; kids = parent consent; lawyer drafts privacy/consent language. No silent training on kids’ photos.
 - **Demo:** https://highlighted-prescription-institutes-flat.trycloudflare.com/
 
 ---
