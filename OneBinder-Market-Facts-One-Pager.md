@@ -161,7 +161,7 @@ Young collectors will ask parents. Entry must be near-zero friction — fun and 
 - **Just Landed:** celebrate the scan→collection moment (no extra camera; no arrival push). Pairs with binder value moves.
 - **Finish the set:** tabled for later.
 - **Parked for later (not stage one):** friend-landed signals; “new this week” on rookies / chase / slabs tiles; optional pull-session streak.
-- **Demo:** https://spark-vessel-obmly.shipped.run/
+- **Demo:** https://highlighted-prescription-institutes-flat.trycloudflare.com/
 
 ---
 
@@ -178,7 +178,7 @@ Young collectors will ask parents. Entry must be near-zero friction — fun and 
 
 ## Prototype status
 - Tap-through mobile web prototype: **OneBinder** (light “cosmic chrome” look)
-- Phone demo link: https://spark-vessel-obmly.shipped.run/ *(browser title: One Binder; temporary free host ~30 days)*
+- Phone demo link: https://highlighted-prescription-institutes-flat.trycloudflare.com/ *(browser title: One Binder; live CardSight ID via proxy; Cloudflare tunnel + ship.page backup)*
 - Walkthrough: Collection → **NFL / MLB / NBA** → **My rookies** + **My slabs**; **Pokémon** → **My chase rares** + **My slabs** (grade · cert # · grader · share); Scan → confirm → **Add to collection** → **Just Landed** (quiet vs heat) → collection; Collection banner / Settings / card Market tease → **One Binder Pro**; Friends → **Trade / want match**; Collection → **binder value move** banner. *(Finish the set tabled. Friend-landed / new-this-week / pull streak parked.)*
 - Demo prices are sample data until a real price feed is connected
 
