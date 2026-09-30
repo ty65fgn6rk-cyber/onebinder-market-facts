@@ -4,18 +4,26 @@
 <title>OneBinder — Market Facts</title>
 <meta name="description" content="OneBinder market facts team brief. Confidential draft."/>
 <style>
-body{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;max-width:840px;margin:40px auto;padding:0 28px 60px;color:#14102A;line-height:1.55;background:#fff}
+html{overflow-x:hidden}
+body{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;max-width:840px;margin:40px auto;padding:0 28px 60px;color:#14102A;line-height:1.55;background:#fff;overflow-x:hidden}
 h1{font-size:26px;margin:0 0 8px;background:linear-gradient(135deg,#00B8E6,#7C3AED,#FF6BCB);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 h2{font-size:14px;margin:28px 0 10px;color:#7C3AED;letter-spacing:.08em;text-transform:uppercase}
 h3{font-size:15px;margin:18px 0 8px;color:#14102A}
 hr{border:none;border-top:1px solid #E8E4FF;margin:18px 0}
-table{width:100%;border-collapse:collapse;font-size:12.5px;margin:8px 0 14px}
-th,td{border:1px solid #E0DCF5;padding:7px 9px;text-align:left;vertical-align:top}
+.table-wrap{width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:8px 0 14px}
+.table-wrap table{width:100%;max-width:100%;min-width:0;table-layout:fixed;border-collapse:collapse;font-size:12.5px;margin:0}
+th,td{border:1px solid #E0DCF5;padding:7px 9px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
 th{background:#F2F0FF}
+.vendor-table td:nth-child(3),.vendor-table td:nth-child(3) a{word-break:break-all;overflow-wrap:anywhere}
 ul,ol{padding-left:1.2em} li{margin:8px 0}
 p{margin:10px 0} code{font-size:12px;background:#F2F0FF;padding:1px 5px;border-radius:4px}
 a{color:#7C3AED}
-@media print{body{margin:12px;padding:0}}
+@media (max-width:600px){
+  body{margin-top:24px;padding-left:16px;padding-right:16px}
+  .table-wrap table{font-size:11px}
+  .table-wrap th,.table-wrap td{padding:6px 7px}
+}
+@media print{body{margin:12px;padding:0}.table-wrap{overflow:visible}}
 
 .hero-logo{display:block;width:168px;height:168px;margin:0 auto 18px;border-radius:36px;box-shadow:0 10px 28px rgba(20,16,42,.18)}
 .hero{text-align:center;margin:0 0 8px}
@@ -65,7 +73,7 @@ a{color:#7C3AED}
 <ul>
 <li><strong>Collectors already use phone apps for hobby cards.</strong> CollX (a scan-and-collect app) has reported <strong>3 million+</strong> users and raised a <strong>$10 million</strong> round in 2025. So “use your phone for your cards” is proven. What is still missing is one app that also tracks <strong>cost</strong>, <strong>value</strong>, and <strong>“should I grade this?”</strong> across hobbies.</li>
 </ul>
-<table><thead><tr><th>Quick fact</th><th>Number</th><th>Source</th></tr></thead><tbody>
+<div class="table-wrap"><table><thead><tr><th>Quick fact</th><th>Number</th><th>Source</th></tr></thead><tbody>
 <tr><td>Global trading / hobby cards (est.)</td><td>~$15.8B (2024) → ~$23.5B by 2030</td><td>Strategic Market Research <em>(estimate)</em></td></tr>
 <tr><td>Collectible card category worldwide (est.)</td><td>~$7.8B (2024) → ~$11.8B by 2030</td><td>BCC Research / ResearchAndMarkets</td></tr>
 <tr><td>Sports collectible cards (est.)</td><td>~$5.3B (2024) → ~$10B by 2035</td><td>WiseGuy Reports <em>(estimate)</em></td></tr>
@@ -74,7 +82,7 @@ a{color:#7C3AED}
 <tr><td>PSA share of grading (2025)</td><td>~19.3M cards (~72%)</td><td>GemRate / SI</td></tr>
 <tr><td>Pokémon cards produced</td><td>75B+ lifetime; ~10.2B in FY ending Mar 2025</td><td>The Pokémon Company</td></tr>
 <tr><td>Example scan-app scale</td><td>CollX: 3M+ users; $10M Series A (Mar 2025)</td><td>TechCrunch</td></tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>How to read the numbers:</strong> Big “global market size” figures from research firms are <strong>estimates</strong>. The stronger day-to-day proof when we talk this through is eBay singles volume, grading volume, Pokémon production, and the fact that scan apps already have millions of users.</p>
 <hr/>
 <h2>Why now (why build this in 2026)</h2>
@@ -88,13 +96,13 @@ a{color:#7C3AED}
 </ul>
 <hr/>
 <h2>Competitive gap (what nobody fully owns)</h2>
-<table><thead><tr><th></th><th>CollX</th><th>Card Ladder</th><th>CollectorVault</th><th>BinderIQ</th><th><strong>OneBinder</strong></th></tr></thead><tbody>
+<div class="table-wrap"><table><thead><tr><th></th><th>CollX</th><th>Card Ladder</th><th>CollectorVault</th><th>BinderIQ</th><th><strong>OneBinder</strong></th></tr></thead><tbody>
 <tr><td>Photo inventory</td><td>●</td><td>○</td><td>●</td><td>●</td><td><strong>●</strong></td></tr>
 <tr><td>Sports + Pokémon / hobby cards together</td><td>●</td><td>●</td><td>Pokémon-only</td><td>●</td><td><strong>●</strong></td></tr>
 <tr><td>Live market / comps</td><td>●</td><td>★</td><td>●</td><td>●</td><td><strong>●</strong></td></tr>
 <tr><td><strong>Cost basis / profit &amp; loss</strong></td><td>○</td><td>○</td><td>○</td><td>●</td><td><strong>★</strong></td></tr>
 <tr><td><strong>AI condition / pre-grade</strong></td><td>○ (chat coach)</td><td>—</td><td>● (Pokémon)</td><td>— (slab lookup)</td><td><strong>★</strong></td></tr>
-</tbody></table>
+</tbody></table></div>
 <p>● = does this · ★ = strongest focus · ○ = weak or not really marketed · — = not offered</p>
 <p><strong>In short:</strong> Pieces exist. CollX is strong at scan + social selling. Card Ladder is strong at price research. CollectorVault leans Pokémon + condition. BinderIQ tracks inventory and cost. <strong>Nobody clearly owns all four</strong> in one consumer app: every hobby, photo inventory, true cost tracking, and honest AI pre-grade.</p>
 <p><strong>OneBinder’s job:</strong> <em>What do I own? What did I pay? What’s it worth? Is it worth sending to PSA?</em></p>
@@ -102,10 +110,10 @@ a{color:#7C3AED}
 <hr/>
 <h2>How we identify cards</h2>
 <p>There are too many sports, players, characters, sets, and parallels for the app to “Google” a card from scratch every time. OneBinder splits the job in two — and we have a <strong>planned stack</strong> for each half:</p>
-<table><thead><tr><th>Job</th><th>How it works</th></tr></thead><tbody>
+<div class="table-wrap"><table><thead><tr><th>Job</th><th>How it works</th></tr></thead><tbody>
 <tr><td><strong>What is this card?</strong></td><td><strong>CardSight</strong> — planned for photo card identification (catalog + visual ID): year, set, player or character, card number, parallel / variation. Not by scraping Card Ladder or CollX.</td></tr>
 <tr><td><strong>What is it worth?</strong></td><td><strong>Card Hedge</strong> — planned for licensed sold comps / market pricing. ID says <em>which</em> card; Card Hedge says <em>what sold lately</em>.</td></tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>Planned stack:</strong> <strong>CardSight</strong> for photo card identification (catalog + visual ID); <strong>Card Hedge</strong> for licensed sold comps / market pricing.</p>
 <p><strong>Stage-one ID UX:</strong> photo → CardSight returns top matches → the collector <strong>confirms</strong>, picks another match, or enters the card manually with pre-filled fields — <strong>not</strong> auto-save. If a rare parallel is missing, they can still save it as <strong>custom / pending ID</strong>.</p>
 <p><strong>Free core eats the CardSight ID cost.</strong> Photo-add + card ID sits in the free product — when a free user snaps a card, we pay for that CardSight call (see <em>Monthly burn</em>). That stays consistent with freemium: free users snap cards; we absorb ID.</p>
@@ -115,11 +123,11 @@ a{color:#7C3AED}
 <h2>Where “current value” comes from</h2>
 <p>OneBinder does <strong>not</strong> scrape or peek inside competitor apps (Card Ladder, CollX, Fanatics, and so on). That is fragile, often against their rules, and a weak story for us when we explain how the product works.</p>
 <p><strong>Value comes from market data we license or put together:</strong></p>
-<table><thead><tr><th>Signal</th><th>What it means</th><th>Why it matters</th></tr></thead><tbody>
+<div class="table-wrap"><table><thead><tr><th>Signal</th><th>What it means</th><th>Why it matters</th></tr></thead><tbody>
 <tr><td><strong>Sold comps</strong></td><td>What similar cards recently <em>sold</em> for (for example eBay completed sales)</td><td>Best everyday answer to “what did it actually go for?”</td></tr>
 <tr><td><strong>Ask / guide prices</strong></td><td>What people are asking, or published price guides</td><td>Helpful context; softer than real sales</td></tr>
 <tr><td><strong>Licensed price feeds</strong></td><td>Clean data services sold to apps</td><td>The normal, durable way serious apps get numbers</td></tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>“Cross-platform” in product terms:</strong> one estimate <em>inside OneBinder</em> that can later blend more than one marketplace — not secretly reading Card Ladder’s screen.</p>
 <p><strong>First build (v0.1):</strong> one solid data source; every number labeled an <strong>estimate</strong>; show the <strong>date</strong> it was refreshed. Add more sources later. Sports and Pokémon may start on different feeds.</p>
 <hr/>
@@ -139,14 +147,14 @@ a{color:#7C3AED}
 <p><em>These numbers and rights come from Card Hedge’s Sep 26 email reply — not a signed contract yet.</em></p>
 <p><strong>What this means in plain English:</strong> Card Hedge is a company that already packages sold-card prices and estimates so apps can show them legally. Their quote says we could start with one hobby for about <strong>$500 a month</strong>, or cover sports plus Pokémon plus Magic plus Disney-style cards for about <strong>$1,000 a month</strong>. We would be allowed to show those numbers to our users without putting “Card Hedge” on every screen. Prices refresh about daily, and they say we would not hit a monthly call cap under a commercial deal. That is still a vendor quote — we need a signed agreement and a test key before the app shows real market values.</p>
 
-<table><thead><tr><th>Vendor</th><th>Best for</th><th>Link</th><th>Notes</th></tr></thead><tbody>
-<tr><td><strong>Card Hedge</strong></td><td>Sports + TCG + non-sport comps / FMV API (broad categories)</td><td><a href="https://ai.cardhedger.com/api-services" target="_blank" rel="noopener">https://ai.cardhedger.com/api-services</a></td><td><strong>Replied Sep 26, 2026.</strong> ~$500/mo one category → ~$1,000/mo all categories. Display rights to end users with no attribution; COMPS + daily history; no rate limits on commercial deals. Named clients: Arena Club, Mantel, Courtyard.io. Next: test key / docs (or a call).</td></tr>
-<tr><td><strong>PriceCharting</strong></td><td>Pokémon + other collectibles guide prices; paid API</td><td><a href="https://www.pricecharting.com/api-documentation" target="_blank" rel="noopener">https://www.pricecharting.com/api-documentation</a> · <a href="https://www.pricecharting.com/pricecharting-pro?f=api" target="_blank" rel="noopener">https://www.pricecharting.com/pricecharting-pro?f=api</a></td><td>Default API is often <strong>internal</strong> use; putting prices in a consumer app needs their <strong>commercial license</strong> — ask explicitly.</td></tr>
-<tr><td><strong>SportsCardsPro</strong></td><td>Sports card guide prices (same family as PriceCharting)</td><td><a href="https://www.sportscardspro.com/api-documentation" target="_blank" rel="noopener">https://www.sportscardspro.com/api-documentation</a></td><td>Same ask: commercial / in-app rights for OneBinder.</td></tr>
-<tr><td><strong>eBay Developer Program</strong></td><td>True <strong>sold comps</strong> (what actually sold)</td><td><a href="https://developer.ebay.com/" target="_blank" rel="noopener">https://developer.ebay.com/</a></td><td>Sold-history style access (e.g. Marketplace Insights) is <strong>limited / needs eBay approval</strong>, not open signup. Browse API alone is mostly active listings — weaker than sold comps.</td></tr>
-<tr><td><strong>TCGplayer API</strong></td><td>Pokémon / TCG marketplace prices</td><td><a href="https://docs.tcgplayer.com/docs/getting-started" target="_blank" rel="noopener">https://docs.tcgplayer.com/docs/getting-started</a> · <a href="https://help.tcgplayer.com/hc/en-us/articles/360061115874-TCGplayer-API-Terms-Conditions" target="_blank" rel="noopener">https://help.tcgplayer.com/hc/en-us/articles/360061115874-TCGplayer-API-Terms-Conditions</a></td><td>Docs currently say <strong>new API access is not being granted</strong>. Still relevant if we already have access through a contact.</td></tr>
-<tr><td><strong>Pokémon TCG API options</strong></td><td>Catalog + market-style Pokémon numbers</td><td><a href="https://docs.pokemontcg.io/" target="_blank" rel="noopener">https://docs.pokemontcg.io/</a> · <a href="https://pokemontcgapi.com/" target="_blank" rel="noopener">https://pokemontcgapi.com/</a></td><td>Useful for Pokémon; read commercial terms before wiring into the app.</td></tr>
-</tbody></table>
+<div class="table-wrap"><table class="vendor-table"><thead><tr><th>Vendor</th><th>Best for</th><th>Link</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>Card Hedge</strong></td><td>Sports + TCG + non-sport comps / FMV API (broad categories)</td><td><a href="https://ai.cardhedger.com/api-services" target="_blank" rel="noopener">cardhedger.com</a></td><td><strong>Replied Sep 26, 2026.</strong> ~$500/mo one category → ~$1,000/mo all categories. Display rights to end users with no attribution; COMPS + daily history; no rate limits on commercial deals. Named clients: Arena Club, Mantel, Courtyard.io. Next: test key / docs (or a call).</td></tr>
+<tr><td><strong>PriceCharting</strong></td><td>Pokémon + other collectibles guide prices; paid API</td><td><a href="https://www.pricecharting.com/api-documentation" target="_blank" rel="noopener">pricecharting.com API</a> · <a href="https://www.pricecharting.com/pricecharting-pro?f=api" target="_blank" rel="noopener">pricecharting.com Pro API</a></td><td>Default API is often <strong>internal</strong> use; putting prices in a consumer app needs their <strong>commercial license</strong> — ask explicitly.</td></tr>
+<tr><td><strong>SportsCardsPro</strong></td><td>Sports card guide prices (same family as PriceCharting)</td><td><a href="https://www.sportscardspro.com/api-documentation" target="_blank" rel="noopener">sportscardspro.com API</a></td><td>Same ask: commercial / in-app rights for OneBinder.</td></tr>
+<tr><td><strong>eBay Developer Program</strong></td><td>True <strong>sold comps</strong> (what actually sold)</td><td><a href="https://developer.ebay.com/" target="_blank" rel="noopener">developer.ebay.com</a></td><td>Sold-history style access (e.g. Marketplace Insights) is <strong>limited / needs eBay approval</strong>, not open signup. Browse API alone is mostly active listings — weaker than sold comps.</td></tr>
+<tr><td><strong>TCGplayer API</strong></td><td>Pokémon / TCG marketplace prices</td><td><a href="https://docs.tcgplayer.com/docs/getting-started" target="_blank" rel="noopener">docs.tcgplayer.com</a> · <a href="https://help.tcgplayer.com/hc/en-us/articles/360061115874-TCGplayer-API-Terms-Conditions" target="_blank" rel="noopener">TCGplayer API terms</a></td><td>Docs currently say <strong>new API access is not being granted</strong>. Still relevant if we already have access through a contact.</td></tr>
+<tr><td><strong>Pokémon TCG API options</strong></td><td>Catalog + market-style Pokémon numbers</td><td><a href="https://docs.pokemontcg.io/" target="_blank" rel="noopener">pokemontcg.io</a> · <a href="https://pokemontcgapi.com/" target="_blank" rel="noopener">pokemontcgapi.com</a></td><td>Useful for Pokémon; read commercial terms before wiring into the app.</td></tr>
+</tbody></table></div>
 <p><strong>Avoid calling “licensed”:</strong> third-party wrappers that scrape eBay sold search behind a quick API key. They can look like an API but often recreate the same legal and block risk as a bot clearing eBay security checks.</p>
 <p><strong>How we explain it:</strong> “We identify the card with CardSight, then we pay Card Hedge for estimates through their API — like a stock app getting prices from a data company, not by scraping a website with a robot.”</p>
 <p><strong>v0.1:</strong> pick <strong>one</strong> solid source; label every number an <strong>estimate</strong> with an <strong>as-of date</strong>. Sports and Pokémon may use different vendors.</p>
@@ -154,24 +162,24 @@ a{color:#7C3AED}
 <h2>Freemium rule (locked)</h2>
 <p><strong>Parent question we must pass:</strong> “Does it cost money?” → <strong>No — you can build and share your whole binder for free.</strong></p>
 <p>Young collectors will ask parents. Entry must be near-zero friction — fun and easy for kids, not a parent chore, and it should match modern app intuition. Kids should feel they <strong>have</strong> to upload their whole book. The free product is the <em>hobby</em> (owning and showing the digital binder). Paid is <em>horsepower</em> for serious users — never a nicer binder.</p>
-<table><thead><tr><th></th><th>Free (the cool core)</th><th>Paid / Pro (optional)</th></tr></thead><tbody>
+<div class="table-wrap"><table><thead><tr><th></th><th>Free (the cool core)</th><th>Paid / Pro (optional)</th></tr></thead><tbody>
 <tr><td>Snap cards into the binder (photo ID / add)</td><td>Yes — free; does <strong>not</strong> burn pre-grade tokens</td><td>Same</td></tr>
 <tr><td>Collection, binders, Incoming (on the way)</td><td>Yes</td><td>Same</td></tr>
 <tr><td>Track what you paid + basic market estimate (incl. collection total)</td><td>Yes · watchlist too</td><td>Deeper comps, grade-worthy picks, value history</td></tr>
 <tr><td>Share a card or binder with friends</td><td>Yes — core loop</td><td>Same</td></tr>
 <tr><td>AI pre-grade (“worth sending to PSA?”)</td><td>Small monthly allowance</td><td>Higher or unlimited</td></tr>
 <tr><td>Exports / power tools</td><td>Light or later</td><td>CSV, richer reports</td></tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>Design rule (locked):</strong> Freemium must stay awesome — <strong>goal is users</strong>. Free = cool core (binder, photo ID, cost, basic value incl. collection total, share / friends / watchlist). Paid = horsepower only (AI pre-grade, deeper comps, grade-worthy picks, value history — $9.99/mo placeholder) — <strong>never</strong> a better binder. Free must feel cooler than Pro — so kids want to snap the whole binder, not wait for a parent to “set it up.” Retention comes from the free loop: pull → add (<strong>Just Landed</strong>) → binder grows → show a friend — same rhythm as owning the physical cards.</p>
 <hr/>
 <h2>Why free still pays (investor)</h2>
 <p><em>Alternative income from the free side — not only Pro</em></p>
 <p>Investors care about more than $9.99/mo. The free binder is also a <strong>data flywheel</strong>:</p>
-<table><thead><tr><th>Asset from free (opt-in)</th><th>What it becomes</th></tr></thead><tbody>
+<div class="table-wrap"><table><thead><tr><th>Asset from free (opt-in)</th><th>What it becomes</th></tr></thead><tbody>
 <tr><td>Confirmed card IDs + photos</td><td>Better ID accuracy → own ID moat / license path</td></tr>
 <tr><td>What users paid (cost entered in free)</td><td>Transaction price authority beyond listing scrapes → comps / data income</td></tr>
 <tr><td>Industry feed (down the road)</td><td>B2B subscription for shops / funds / graders: price + identity + how much supply sits in opted-in binders (availability in the hobby) — not only consumer Pro</td></tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>Why it matters:</strong> Pro is horsepower revenue. Free is the user goal <strong>and</strong> the path to becoming an authority on <strong>identity and price</strong> — two income streams that scale with free volume, with consent. Lawyer drafts the ask/consent before we collect anything for this purpose.</p>
 <hr/>
 <h2>Today’s product locks</h2>
@@ -215,11 +223,11 @@ a{color:#7C3AED}
 <h2>What it costs to run (excluding the app build)</h2>
 <p>These figures are <strong>operating and launch costs only</strong> — Apple fees, hosting, data feeds, AI usage, entity/legal basics. They do <strong>not</strong> include paying someone to build the app.</p>
 <p><strong>In plain English:</strong> early private testing on phones can stay cheap for Apple / hosting / AI. A lean first public year for those line items is still often low five figures. The main recurring add-on is a licensed price feed — Card Hedge quoted about <strong>$500–$1,000 / month</strong> (one category → all categories) with display rights for end users. That still needs a signed agreement before we treat it as locked.</p>
-<table><thead><tr><th>Stage</th><th>Ballpark (USD)</th><th>What’s in it</th></tr></thead><tbody>
+<div class="table-wrap"><table><thead><tr><th>Stage</th><th>Ballpark (USD)</th><th>What’s in it</th></tr></thead><tbody>
 <tr><td><strong>Private iOS test build</strong> (friends / family via TestFlight; Pokémon-first price feed; metered AI pre-grades)</td><td>About <strong>$150–400</strong> to start, then <strong>~$30–80 / month</strong></td><td>Apple Developer ($99/yr), domain, light hosting, Pokémon catalog/price SaaS (e.g. Scrydex ~$29+/mo), cheap AI for Pro pre-grades</td></tr>
 <tr><td><strong>Lean public App Store year</strong> (~5,000 monthly users; known public costs)</td><td>About <strong>$4,000–$12,000 / year</strong></td><td>Apple + Florida LLC + domain + trademark filing + privacy work, hosting, Pokémon data SaaS, AI, email/crash tools. Closer to <strong>$6k–$16k</strong> with stronger privacy counsel and optional insurance</td></tr>
 <tr><td><strong>Licensed market-data feed (Card Hedge quote)</strong></td><td>About <strong>$500–$1,000 / month</strong></td><td>Per Card Hedge email Sep 26, 2026: ~$500/mo for one category (e.g. Pokémon) up to ~$1,000/mo for all categories. Includes display rights for estimates/comps to users (no attribution required). Still needs a signed commercial agreement and a test key before we wire it in. Other vendors (PriceCharting commercial, Beckett, eBay Insights, TCGplayer) remain quote / ask separately if we need a backup.</td></tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>Other fixed / yearly items we should know:</strong></p>
 <ul>
 <li>Apple Developer: <strong>$99 / year</strong>. Google Play (later): <strong>$25 once</strong>.</li>
@@ -240,13 +248,13 @@ a{color:#7C3AED}
 <li><strong>Card Hedge comps:</strong> ~$500 / mo one category, ~$1,000 / mo all categories (Sep 26 reply). Values refresh <strong>daily</strong> (not per-user).</li>
 <li><strong>Hosting / storage / AI pre-grade</strong> (metered) stays a small add-on early — not the driver of monthly burn.</li>
 </ul>
-<table><thead><tr><th>Milestone</th><th>Ballpark monthly burn</th><th>What’s driving it</th></tr></thead><tbody>
+<div class="table-wrap"><table><thead><tr><th>Milestone</th><th>Ballpark monthly burn</th><th>What’s driving it</th></tr></thead><tbody>
 <tr><td><strong>Private TestFlight</strong> (~50–100 users)</td><td>≈ <strong>$500–$600 / mo</strong></td><td>CardSight Free ($0) + Card Hedge one-category ($500). <em>Free-tier ID cost:</em> essentially $0 this month — we are still inside the free 750-call allowance, so almost all of this burn is comps, not ID.</td></tr>
 <tr><td><strong>Early public</strong> (~1,000 MAU)</td><td>≈ <strong>$515–$550 / mo</strong></td><td>CardSight Pro ($14.95) + Card Hedge one-category ($500). <em>Free-tier ID cost:</em> ~$15 of the month — the Pro tier we step into so free photo-adds keep working. Still tiny vs comps.</td></tr>
 <tr><td><strong>Growing</strong> (~5,000 MAU)</td><td>≈ <strong>$1,075–$1,100 / mo</strong></td><td>CardSight Premium ($74.95) + Card Hedge all-categories ($1,000). <em>Free-tier ID cost:</em> ~$75 of the month — ID we eat for free adds. The big jump here is comps (one hobby → all categories), not ID.</td></tr>
 <tr><td><strong>Scaling</strong> (~25,000 MAU)</td><td>≈ <strong>$1,200–$1,250 / mo</strong> + hosting / AI ~$50–$150</td><td>CardSight Ultra ($199.95) + Card Hedge all ($1,000). <em>Free-tier ID cost:</em> ~$200 of the month — still the smaller slice; comps remain the main fixed line.</td></tr>
 <tr><td><strong>Larger</strong> (~100,000 MAU)</td><td>≈ <strong>$1,500–$2,000+ / mo</strong></td><td>Ultra + overage (a few hundred) + Card Hedge $1,000 + hosting / AI ~$200–$500. <em>Free-tier ID cost:</em> a few hundred of the month (tier + overage at ~$0.002–$0.003/call) — ID finally becomes a meaningful variable line as free volume scales.</td></tr>
-</tbody></table>
+</tbody></table></div>
 <p><strong>What this means for us:</strong> early on the comps feed (Card Hedge) is the main monthly cost. ID stays cheap until serious volume — but every free card-add is still a real call we pay for. The big step-change is one-hobby comps pricing → all categories (~$500 → ~$1,000). Freemium implication: growing free users (the goal) grows ID burn we absorb so the cool core stays free; paid horsepower (AI / deeper comps) should recover that — never by making a better binder.</p>
 <p><em>Planning estimates only. Final Card Hedge numbers depend on a signed agreement.</em></p>
 <hr/>
