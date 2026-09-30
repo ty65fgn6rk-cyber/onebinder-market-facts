@@ -116,12 +116,12 @@ OneBinder will **not** scrape eBay or competitor apps in a browser (captchas, bl
 
 | Vendor | Best for | Link | Notes |
 |--------|----------|------|-------|
-| **Card Hedge** | Sports + TCG + non-sport comps / FMV API (broad categories) | https://ai.cardhedger.com/api-services | **Contacted Sep 25, 2026** — waiting on reply. Strongest public “sells an API for apps” fit so far; still need written rights to show numbers to our users. |
-| **PriceCharting** | Pokémon + other collectibles guide prices; paid API | https://www.pricecharting.com/api-documentation · https://www.pricecharting.com/pricecharting-pro?f=api | Default API is often **internal** use; putting prices in a consumer app needs their **commercial license** — ask explicitly. |
-| **SportsCardsPro** | Sports card guide prices (same family as PriceCharting) | https://www.sportscardspro.com/api-documentation | Same ask: commercial / in-app rights for OneBinder. |
-| **eBay Developer Program** | True **sold comps** (what actually sold) | https://developer.ebay.com/ | Sold-history style access (e.g. Marketplace Insights) is **limited / needs eBay approval**, not open signup. Browse API alone is mostly active listings — weaker than sold comps. |
-| **TCGplayer API** | Pokémon / TCG marketplace prices | https://docs.tcgplayer.com/docs/getting-started · https://help.tcgplayer.com/hc/en-us/articles/360061115874-TCGplayer-API-Terms-Conditions | Docs currently say **new API access is not being granted**. Still relevant if we already have access through a contact. |
-| **Pokémon TCG API options** | Catalog + market-style Pokémon numbers | https://docs.pokemontcg.io/ · https://pokemontcgapi.com/ | Useful for Pokémon; read commercial terms before wiring into the app. |
+| **Card Hedge** | Sports + TCG + non-sport comps / FMV API (broad categories) | [API services](https://ai.cardhedger.com/api-services) | **Contacted Sep 25, 2026** — waiting on reply. Strongest public “sells an API for apps” fit so far; still need written rights to show numbers to our users. |
+| **PriceCharting** | Pokémon + other collectibles guide prices; paid API | [API documentation](https://www.pricecharting.com/api-documentation) · [PriceCharting Pro API](https://www.pricecharting.com/pricecharting-pro?f=api) | Default API is often **internal** use; putting prices in a consumer app needs their **commercial license** — ask explicitly. |
+| **SportsCardsPro** | Sports card guide prices (same family as PriceCharting) | [API documentation](https://www.sportscardspro.com/api-documentation) | Same ask: commercial / in-app rights for OneBinder. |
+| **eBay Developer Program** | True **sold comps** (what actually sold) | [Developer Program](https://developer.ebay.com/) | Sold-history style access (e.g. Marketplace Insights) is **limited / needs eBay approval**, not open signup. Browse API alone is mostly active listings — weaker than sold comps. |
+| **TCGplayer API** | Pokémon / TCG marketplace prices | [Getting started](https://docs.tcgplayer.com/docs/getting-started) · [API Terms & Conditions](https://help.tcgplayer.com/hc/en-us/articles/360061115874-TCGplayer-API-Terms-Conditions) | Docs currently say **new API access is not being granted**. Still relevant if we already have access through a contact. |
+| **Pokémon TCG API options** | Catalog + market-style Pokémon numbers | [pokemontcg.io](https://docs.pokemontcg.io/) · [pokemontcgapi.com](https://pokemontcgapi.com/) | Useful for Pokémon; read commercial terms before wiring into the app. |
 
 **Avoid calling “licensed”:** third-party wrappers that scrape eBay sold search behind a quick API key. They can look like an API but often recreate the same legal and block risk as a bot clearing eBay security checks.
 
